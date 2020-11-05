@@ -36,7 +36,7 @@ Model working is divided into phases:
   Convolutional Neural Network (CNN) is widely used for image classification. the model actully works well for the working that we desire in this project. The model has been 
   developed with 4 layers, three of them are for input layers and one for output layer. 'relu' as activation layer is used in internal working, 'sigmoid' activation layer is 
   used for output layer. 
-  <br/><ins>'relu' activation layer</ins: Here, it takes positive value as it is if the model is giving it, and if we are getting negative value from model, it will assign the value for 
+    <br/><ins>'relu' activation layer</ins>: Here, it takes positive value as it is if the model is giving it, and if we are getting negative value from model, it will assign the value for 
   that to be 0. That is the reason it is referred as rectified networks.
   <br/><ins>'sigmoid' activation layer</ins>: Since, we can have value only 0 or 1 (bipolar outputs), therefore, we need to make sure that we are taking care of values that comes
   in between [0,1]. Normally , value < 0.5 is taken as 0 and values > 0.5 is taken as 1.
